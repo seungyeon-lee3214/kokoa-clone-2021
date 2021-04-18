@@ -89,6 +89,7 @@
 
 .message-row--own {
   justify-content: flex-end;
+  opacity: 0;
 }
 
 .message-row--own .message__bubble {
@@ -101,6 +102,23 @@
 
 .message-row--own .message__info {
   flex-direction: row-reverse;
+}
+
+@keyframes messageright {
+  from {
+    opacity: 0;
+    transform: translateX(10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.message-row:last-child {
+  animation: messageright 0.8s ease-in-out;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
 }
 
 .reply {

@@ -34,3 +34,7 @@ body {
   height: 6px;
   border-radius: 3px;
 }
+
+.fa-brush {
+  transform: rotateX(180deg);
+}

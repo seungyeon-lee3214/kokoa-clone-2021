@@ -38,3 +38,11 @@
   font-size: 32px;
   color: white;
 }
+
+.more-suggestions__icon img {
+  width: 62px;
+  height: 62px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}

@@ -16,3 +16,7 @@
 .settings__setting-coulmn:last-child {
   opacity: 0.5;
 }
+
+.settings__margin {
+  margin-top: 40px;
+}

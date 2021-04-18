@@ -13,6 +13,7 @@
   height: 70px;
   border-radius: 25px;
   margin-right: 20px;
+  object-fit: cover;
 }
 
 .user-component__title {
@@ -30,12 +31,14 @@
 .user-component__avatar--xl {
   width: 80px;
   height: 80px;
+  object-fit: cover;
 }
 
 .user-component__avatar--sm {
   width: 60px;
   height: 60px;
-  border-radius: 25px;
+  border-radius: 20px;
+  object-fit: cover;
 }
 
 .user-component__title--not-bold {
@@ -68,4 +71,33 @@
   position: absolute;
   right: -20px;
   bottom: 1px;
+}
+
+.user-component__friends {
+  margin-bottom: 25px;
+}
+
+.user-component__subtitle--emoji {
+  color: rgba(0, 0, 0, 1);
+}
+
+.user-component__music {
+  border: 2px solid tomato;
+  padding: 5px 7px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.user-component__music a {
+  font-size: 12px;
+}
+
+.fa-caret-right {
+  color: tomato;
+}
+
+.user-component__fritext {
+  font-size: 12px;
+  margin-top: 10px;
 }
