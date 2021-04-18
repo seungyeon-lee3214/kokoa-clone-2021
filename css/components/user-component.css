@@ -31,7 +31,6 @@
 .user-component__avatar--xl {
   width: 80px;
   height: 80px;
-  object-fit: cover;
 }
 
 .user-component__avatar--sm {
