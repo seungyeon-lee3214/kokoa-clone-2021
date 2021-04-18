@@ -104,7 +104,7 @@
   flex-direction: row-reverse;
 }
 
-@keyframes messageright {
+@keyframes messageOwn {
   from {
     opacity: 0;
     transform: translateX(10px);
@@ -116,7 +116,7 @@
 }
 
 .message-row:last-child {
-  animation: messageright 0.8s ease-in-out;
+  animation: messageOwn 0.8s ease-in-out;
   animation-delay: 1s;
   animation-fill-mode: forwards;
 }
